@@ -1,0 +1,10 @@
+^C:\USERS\LENOVO\DESKTOP\ATTENDANCESYSTEM\BUILD\CMAKEFILES\BEF7C97064BA36F0F38D1B024790C5AB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LENOVO/Desktop/AttendanceSystem -BC:/Users/LENOVO/Desktop/AttendanceSystem/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/LENOVO/Desktop/AttendanceSystem/build/AttendanceSystem.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

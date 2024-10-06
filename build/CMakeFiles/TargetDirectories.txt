@@ -1,0 +1,3 @@
+C:/Users/LENOVO/Desktop/AttendanceSystem/build/CMakeFiles/attendance_system.dir
+C:/Users/LENOVO/Desktop/AttendanceSystem/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/LENOVO/Desktop/AttendanceSystem/build/CMakeFiles/ZERO_CHECK.dir
